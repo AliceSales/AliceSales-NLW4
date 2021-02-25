@@ -1,5 +1,6 @@
 # Move-it
-Aplicação feita durante a trilha de React do NLW-4 da @Rocketseat, na semana #NextLevelWeek4.
+Aplicação feita durante a trilha de React do NLW-4 da 
+[@Rocketseat](https://rocketseat.com.br/), na semana #NextLevelWeek4.
 <br>
 
 ## 📫 Contribuindo com o Move-it
