@@ -1,20 +1,21 @@
-import { useContext, useState } from 'react';
-import { ChallengesContext } from '../contexts/ChallengeContext';
+import { useContext } from 'react';
+import { ChallengeContext } from '../contexts/ChallengeContext';
 import styles from '../styles/components/Profile.module.css';
 
 export function Profile() {
-    const { level } = useContext (ChallengesContext);
+  const { level } = useContext(ChallengeContext);
 
-    return(
-        <div className={styles.profileContainer}>
-            <img src="https://github.com/AliceSales.png" alt="Alice Sales"/>
-            <div>
-                <strong>Alice Sales</strong>
-                <p>
-                    <img src="icons/level.svg" alt="Level"/>
-                    {level}
-                </p>
-            </div>
-        </div>
-    );
+  return (
+    <div className={styles.profileContainer}>
+      <img src="https://github.com/alicesales.png" alt="Alice Sales" />
+      <div>
+        <strong>Alice Sales</strong>
+        <p>
+          <img src="icons/level.svg" alt="Level" />
+          Level {level}
+        </p>
+        
+      </div>
+    </div>
+  );
 }
